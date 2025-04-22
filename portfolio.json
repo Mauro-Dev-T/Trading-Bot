@@ -1,12 +1,1 @@
-{
-    "EURUSDT": [
-        {
-            "monto": 10.0,
-            "precio": 1.1502
-        },
-        {
-            "monto": 10.0,
-            "precio": 1.1487
-        }
-    ]
-}
+# Las operaciones realizadas se guardaran aqui
