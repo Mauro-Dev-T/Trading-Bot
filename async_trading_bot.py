@@ -8,10 +8,10 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes, Messa
 from datetime import datetime
 
 # ============ CONFIGURACIÓN ============
-BINANCE_API_KEY = 'MUxy79wIwVjTipZDFxXNEDxIsGwzRXhVqiKrzPtzCoWrN1hyoNwOrzZj6uODWY4T'
-BINANCE_API_SECRET = 'Op2bGZFakYC5v1SNXK2QSCYvn9gaN8Vsx0r4s1YvbmMsUUnYqyePxZA4bNz6358v'
-TELEGRAM_BOT_TOKEN = '8147851033:AAGb0RgOWx7LuIT4E8qKxwoj-Qp1FM3ijYQ'
-TELEGRAM_CHAT_ID = '6216459013'  # Tu chat ID para alertas automáticas
+BINANCE_API_KEY = 'TU_API_KEY'
+BINANCE_API_SECRET = 'TU_API_SECRET'
+TELEGRAM_BOT_TOKEN = 'TU_BOT_TOKEN'
+TELEGRAM_CHAT_ID = 'TU_CHAT_ID'  # Tu chat ID para alertas automáticas
 PORTFOLIO_FILE = 'portfolio.json'
 
 # Criptos a monitorear
