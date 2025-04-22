@@ -145,7 +145,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/analizar - Analizar mercado ahora",
         "/cartera - Ver simulaciones de compra",
         "/compra [monto] [cripto] - Simular compra",
-        "/venta  [monto] [cripto] - Simular venta",
+        "/venta  [cripto] [monto] - Simular venta",
         "/help o /ayuda - Mostrar comandos",
     ]
     await update.message.reply_text("Comandos:\n" + "\n".join(cmds))
@@ -157,7 +157,7 @@ async def unknown(update: Update, context: ContextTypes.DEFAULT_TYPE):
         "/analizar - Analizar mercado ahora",
         "/cartera - Ver simulaciones de compra",
         "/compra [monto] [cripto] - Simular compra",
-        "/venta  [monto] [cripto] - Simular venta",
+        "/venta  [cripto] [monto] - Simular venta",
         "/help o /ayuda - Mostrar comandos",
     ]
     await update.message.reply_text(
